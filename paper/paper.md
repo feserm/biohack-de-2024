@@ -111,18 +111,18 @@ The web application uses the foundation of the ISA Wizard `[@citesAsRecommendedR
 Instead of going along the JSON structure, we decided that it is more intuitive in the ODRL use case, to structure the questionnaire based on what the user wants to allow/disallow or respectively require. 
 Therefore, the main objective was the implementation of two reusable components that can be utilized for actions that either permit or prohibit certain kinds of data access (cf. Building Block type "Permission/Prohibition") or for actions that require their execution to get access to the data (cf. Building Block type "Duty").
 
-![odrl-builder-permission-prohibition-component](https://hackmd.io/_uploads/B1CYAwpNyl.png)
+![odrl-builder-permission-prohibition-component](./odrl-wizard-rule-screenshot.png)
 **Figure1:** Reusable component to switch between permitting or prohibiting a certain action. In this example, the user can permit or prohibit the reproduction of their dataset. They decide to allow reproduction with the constraint, that it has an embargo until the 13th of December 2024.
 
 
-![odrl-builder-duty-component](https://hackmd.io/_uploads/Sy0FAPaV1e.png)
+![odrl-builder-duty-component](./odrl-wizard-duty-screenshop.png)
 **Figure 2:** Reusable component to require a certain action to grant the permission on the dataset. In this example, the user requires to notice the terms of use and licenses for the dataset. 
 
 Both components, as depicted in Figure 1 and Figure 2, are designed and implemented in a similar way. Below the heading a short description of the action is provided to explain the user, what they are currently deciding on. Then a button bar is provided allowing the user to select their choice. The application will create and remove the rule accordingly so that at all times the GUI is reflecting the ODRL and vice versa. If appropriate, the user can add additional restrictions to the action. Below the restrictions the user sees a preview of the text or the consequences (in the case of not requiring or selecting an action) of their selections.
 
 When the questionnaire is finished, the user is redirected to the overview page (cf. Figure3). From here they see the selected rules and can choose to export the DUA as a ODRL JSON or rendered as a PDF using the backend server.
 
-![odrl-builder-simple-gui](https://hackmd.io/_uploads/rJ4xQdTEye.png)
+![odrl-builder-simple-gui](./odrl-wizard-gui-screenshot.png)
 **Figure3:** Overview page of the generated GUI. The button bar at the bottom allows the user to export the ODRL as a JSON file or rendered as a PDF. The persistance options will be implemented in a later stage.
 
 ## Backend Server
