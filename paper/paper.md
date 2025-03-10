@@ -1,10 +1,4 @@
 ---
-title: Simplifying and Standardizing the Creation of Data Use Agreements for Life Sciences and Beyond - BH Germany 2024
-tags: [ODRL, BiohackDE24, Data use agreement, License]
-
----
-
----
 title: 'Simplifying and Standardizing the Creation of Data Use Agreements for Life Sciences and Beyond - BH Germany 2024'
 title_short: 'ODRL-Wizard'
 tags:
