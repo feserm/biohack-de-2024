@@ -107,7 +107,7 @@ We derived multiple building blocks for the ODRL representation and rendering th
 
 ## Web application
 
-The web application uses the foundation of the ISA Wizard `[@citesAsRecommendedReading:10.37044/osf.io/ekhdw]`. This includes the generation of entities from JSON schemas, which were manually created for this project, the formal logic of building a JSON using a two-way binding between the graphical user interface (GUI) and the stored ODRL as well as the general layout of the GUI. 
+The web application uses the foundation of the ISA Wizard `[@citesAsRecommendedReading:arend_biohackrxiv_nodate]`. This includes the generation of entities from JSON schemas, which were manually created for this project, the formal logic of building a JSON using a two-way binding between the graphical user interface (GUI) and the stored ODRL as well as the general layout of the GUI. 
 Instead of going along the JSON structure, we decided that it is more intuitive in the ODRL use case, to structure the questionnaire based on what the user wants to allow/disallow or respectively require. 
 Therefore, the main objective was the implementation of two reusable components that can be utilized for actions that either permit or prohibit certain kinds of data access (cf. Building Block type "Permission/Prohibition") or for actions that require their execution to get access to the data (cf. Building Block type "Duty").
 
