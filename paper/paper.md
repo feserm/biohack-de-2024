@@ -70,7 +70,7 @@ biohackathon_url:   "https://www.denbi.de/de-nbi-events/1678-biohackathon-german
 biohackathon_location: "Kassel, Germany, 2024"
 group: Project 2
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackrxiv/publication-template
+git_url: https://github.com/feser/biohack-de-2024
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: Feser Manuel, Beyvers Sebastian, \emph{et al.}
